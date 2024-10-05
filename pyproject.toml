@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "zail"
+version = "0.1.0"
+description = ""
+authors = ["byfarm <buckshootroger@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+httpx = "^0.27.2"
+bs4 = "^0.0.2"
+devtools = "^0.12.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
